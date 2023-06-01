@@ -2,6 +2,27 @@
 
 > WORK IN PROGRESS
 
+A Sketch plugin to generate an "SVG Spritesheet" from your selected layers. An SVG Spritesheet is an `<svg>` element with named `<symbol>` elements that can relatively easily be refereced from websites. The file looks something like this:
+
+```html
+<svg>
+  <symbol id="arrow-left">...</symbol>
+  <symbol id="arrow-right">...</symbol>
+  <symbol id="home">...</symbol>
+  <symbol id="dashboard">...</symbol>
+</svg>
+```
+
+Then in your HTML you can use the icon with:
+
+```html
+<svg>
+  <use href="/path/to/icons.svg#arrow-right"></use>
+</svg>
+```
+
+These work really well with EveryLayout's [icon-layout](https://every-layout.dev/layouts/)
+
 ## Installation
 
 - [Download](../../releases/latest/download/sketch-spritesheet.sketchplugin.zip) the latest release of the plugin
