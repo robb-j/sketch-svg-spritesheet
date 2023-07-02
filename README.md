@@ -29,6 +29,14 @@ These work really well with EveryLayout's [icon-layout](https://every-layout.dev
 - Un-zip
 - Double-click on sketch-spritesheet.sketchplugin
 
+## Usage
+
+1. Select the artboards you want to generate a spritesheet from
+2. Navigate to **Plugins → SVG Spritesheet → Generate** in the menu
+3. Choose where you want the SVG to be saved to
+
+As a bonus, the SVG embeds `<use>` tags within it so that you get a nice preview of all your icons in the macOS.
+
 ## Development Guide
 
 _This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
