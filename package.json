@@ -1,5 +1,6 @@
 {
   "name": "sketch-spritesheet",
+  "type": "module",
   "description": "Generate an 'SVG Spritesheet' from assets, ready to embed on the web",
   "version": "0.1.0",
   "engines": {
@@ -26,11 +27,16 @@
   },
   "devDependencies": {
     "@skpm/builder": "^0.8.0",
+    "prettier": "^2.8.8",
     "skpm": "^1.3.2"
   },
   "author": "Rob Anderson <robanderson@hey.com>",
   "dependencies": {
     "@skpm/dialog": "^0.4.2",
     "@skpm/fs": "^0.2.6"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }

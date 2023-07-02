@@ -2,11 +2,11 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nnpm run build"
+      "script" : "#!\/usr\/bin\/env sh\nnpm run build"
     },
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nnpm run watch"
+      "script" : "#!\/usr\/bin\/env sh\nnpm run watch"
     }
   }
 }

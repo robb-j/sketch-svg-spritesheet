@@ -63,7 +63,7 @@ npm run start
 
 #### Babel
 
-To customize Babel, you have two options:
+To customise Babel, you have two options:
 
 - You may create a [`.babelrc`](https://babeljs.io/docs/usage/babelrc) file in your project's root directory. Any settings you define here will overwrite matching config-keys within skpm preset. For example, if you pass a "presets" object, it will replace & reset all Babel presets that skpm defaults to.
 
@@ -81,7 +81,7 @@ To customize webpack create `webpack.skpm.config.js` file which exports function
  * @param {object} config - original webpack config.
  * @param {boolean} isPluginCommand - whether the config is for a plugin command or a resource
  **/
-module.exports = function(config, isPluginCommand) {
+module.exports = function (config, isPluginCommand) {
   /** you can change config here **/
 }
 ```
